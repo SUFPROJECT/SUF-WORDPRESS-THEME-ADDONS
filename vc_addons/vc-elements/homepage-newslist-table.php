@@ -52,6 +52,7 @@ class suf_Homepage_NewsList_Table extends WPBakeryShortCode
                         'admin_label' => false,
                         'weight' => 0,
                         'group' => __('默认选项', 'suf-lang'),
+                        //zengjia xinde wenjian
                     ),
 
                 ),
