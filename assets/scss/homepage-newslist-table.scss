@@ -1,0 +1,32 @@
+.vc_newslist {
+  &.vc_newslist-block {
+    display: table;
+
+    .vc_newslist-section {
+      .newsitem {
+        border-bottom: 1px solid #ccc;
+        line-height: 52px;
+        margin-bottom: 0px;
+
+        .time {
+          display: table-cell;
+          padding: 0px 20px;
+          min-width: 120px;
+        }
+
+        .title {
+          display: table-cell;
+          padding-left: 20px;
+
+          a {
+            text-align: left;
+
+            &:hover {
+
+            }
+          }
+        }
+      }
+    }
+  }
+}
