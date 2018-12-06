@@ -15,6 +15,7 @@ if (!function_exists('vc_before_init_actions')) {
     {
         // 加入一个首页新闻列表
         require_once(__DIR__ . '/vc-elements/homepage-newslist-table.php');
+        require_once(__DIR__ . '/vc-elements/company-outline.php');
 
     }
 }
