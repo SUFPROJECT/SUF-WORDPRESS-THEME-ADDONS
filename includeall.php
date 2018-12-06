@@ -24,6 +24,7 @@ if (!function_exists('include_suf_files')) {
     {
         include_once(__DIR__ . '/vc_addons/vc_addons.php');
         include_once(__DIR__ . '/inc/suf_helper.php');
+        include_once(__DIR__ . '/modules/modules_init.php');
     }
 
     include_suf_files();
