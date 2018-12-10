@@ -1,0 +1,17 @@
+.vc_newslist.vc_newslist-block {
+  display: table; }
+  .vc_newslist.vc_newslist-block .vc_newslist-section .newsitem {
+    border-bottom: 1px solid #ccc;
+    line-height: 52px;
+    margin-bottom: 0px; }
+    .vc_newslist.vc_newslist-block .vc_newslist-section .newsitem .time {
+      display: table-cell;
+      padding: 0px 20px;
+      min-width: 120px; }
+    .vc_newslist.vc_newslist-block .vc_newslist-section .newsitem .title {
+      display: table-cell;
+      padding-left: 20px; }
+      .vc_newslist.vc_newslist-block .vc_newslist-section .newsitem .title a {
+        text-align: left; }
+
+/*# sourceMappingURL=maps/homepage-newslist-table.css.map */

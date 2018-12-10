@@ -1,0 +1,71 @@
+@charset "UTF-8";
+.suf-company_outlines_list {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden; }
+  .suf-company_outlines_list dt, .suf-company_outlines_list dd {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0px; }
+  .suf-company_outlines_list dt {
+    float: left;
+    width: 35%;
+    padding-bottom: 0; }
+  .suf-company_outlines_list dd {
+    margin-left: 35%;
+    background-color: #fff; }
+  .suf-company_outlines_list .row2 + dd:after {
+    content: none; }
+  .suf-company_outlines_list.table-style {
+    border: 1px solid #bdc8ca;
+    background-color: #f7fafa; }
+    .suf-company_outlines_list.table-style dd {
+      border-left: 1px dotted #bdc8ca; }
+    .suf-company_outlines_list.table-style dd ~ dt,
+    .suf-company_outlines_list.table-style dd ~ dd {
+      border-top: 1px solid #bdc8ca; }
+  .suf-company_outlines_list.line-style dt, .suf-company_outlines_list.line-style dd {
+    padding: 20px; }
+  .suf-company_outlines_list.line-style dd ~ dt {
+    border-top: 1px solid #eee;
+    position: relative; }
+    .suf-company_outlines_list.line-style dd ~ dt:after {
+      content: "";
+      display: block;
+      border-top: 3px solid #eee;
+      position: absolute;
+      top: -2px;
+      left: 0px;
+      height: 3px;
+      width: 100%; }
+  .suf-company_outlines_list.line-style dd ~ dd {
+    border-top: 1px solid #f3f3f3; }
+
+/**
+  *自适应调试模块
+*/
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .suf-company_outlines_list.line-style dt {
+    content: '';
+    display: block;
+    border-top: 3px solid #eee;
+    position: absolute;
+    top: -2px;
+    left: 0px;
+    height: 3px;
+    width: 100%; }
+  .suf-company_outlines_list.line-style dt, .suf-company_outlines_list.line-style dd {
+    padding: 20px;
+    float: none;
+    width: 100%;
+    margin: 0px; }
+  .suf-company_outlines_list.line-style dd ~ dt {
+    border-top: 1px solid #eee;
+    position: relative; }
+    .suf-company_outlines_list.line-style dd ~ dt:after {
+      content: none; }
+  .suf-company_outlines_list.line-style dd ~ dd {
+    border-top: 1px solid #f3f3f3; } }
+
+/*# sourceMappingURL=maps/company-outlines.css.map */
